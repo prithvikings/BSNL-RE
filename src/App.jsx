@@ -5,7 +5,7 @@ import Mobile from './pages/Mobile';
 import Fibre from './pages/Fibre';
 import Support from './pages/Support';
 import About from './pages/About';
-import Newconnection from './pages/Newconnection';
+import NewConnection from "./pages/NewConnection.jsx";
 import Recharge from './pages/Recharge';
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
       <Route path="/fibre" element={<Fibre />} />
       <Route path="/mobile" element={<Mobile />} />
       <Route path="/support" element={<Support />} />
-      <Route path='/newconnection' element={<Newconnection />} />
+      <Route path='/newconnection' element={<NewConnection />} />
       <Route path='/recharge' element={<Recharge />} />
       <Route path="*" element={<div>404 Not Found</div>} />
     </Routes>
