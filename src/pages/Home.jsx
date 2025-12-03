@@ -8,6 +8,7 @@ import TestimonialsSectionDemo from "../components/TestimonialsSectionDemo";
 import Service from "../components/Service";
 import Community from "../components/Community";
 import { MinimalFooter } from "../components/minimal-footer";
+import HeroSectionVideo from "../components/HeroSectionVideo";
 export default function Home() {
   return (
     <div>
@@ -24,7 +25,17 @@ export default function Home() {
 
       {/* Section 2 */}
       <div
-        className="w-full min-h-screen relative pb-24 
+        className="hidden md:flex w-full min-h-screen relative pb-24 
+      [background:radial-gradient(130%_150%_at_50%_0%,_#ffffff_8%,_#fdfbf7_30%,_#E7EFFD_60%,_#FDFBE7_85%,_#ffffff_100%)]"
+      >
+        <div className="mx-auto max-w-4xl">
+          <HeroSectionVideo />
+        </div>
+      </div>
+
+      {/* Section 2 */}
+      <div
+        className=" w-full min-h-screen relative
       [background:radial-gradient(130%_150%_at_50%_0%,_#ffffff_8%,_#fdfbf7_30%,_#E7EFFD_60%,_#FDFBE7_85%,_#ffffff_100%)]"
       >
         <div className="mx-auto max-w-4xl">
